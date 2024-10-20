@@ -1,7 +1,7 @@
 # Step 1: Import required libraries
 import numpy as np
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
+from tensorflow.keras.models import Sequential # type: ignore
+from tensorflow.keras.layers import Dense # type: ignore
 
 # Step 2: Define XOR input and output (truth table)
 # Inputs: (X1, X2) and Outputs: XOR(X1, X2)
